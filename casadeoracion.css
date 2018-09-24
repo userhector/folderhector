@@ -21,14 +21,22 @@ body {
 	text-align: left;
 }
 #cabecera {
-	background: #fffbb9;
+	background: #d8bfd8;
 	border: 1px solid #999999;
 	padding: 20px;
-	
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	-moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+	-webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+	box-shadow: rgb(150, 150, 150) 5px 5px 10px;
 }
 #menu {
 	background: #cccccc;
 	padding: 5px 15px;
+	margin: 20px;
 }
 #menu li {
 	display: inline-block;
@@ -57,7 +65,7 @@ body {
 }
 
 article {
-	background: #fffbcc;
+	background: #d8bfd8;
 	border: 1px solid #999999;
 	padding: 20px;
 	margin-bottom: 15px;
