@@ -32,6 +32,14 @@ body {
 	-moz-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
 	-webkit-box-shadow: rgb(150, 150, 150) 5px 5px 10px;
 	box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+
+	text-shadow: rgb(150, 0, 150) 3px 3px 5px;
+	font: bold 30px mifuente1, verdana, sans-serif;
+
+}
+	@font-face {
+		font-family: "mifuente1";
+		src: url("fuentes/Wedgie Regular.ttf");	
 }
 #menu {
 	background: #cccccc;
@@ -65,10 +73,12 @@ body {
 }
 
 article {
-	background: #d8bfd8;
+	background: -webkit-linear-gradient(top, violet, #d8bfd8);
+	background: -moz-linear-gradient(top, violet, #d8bfd8);
 	border: 1px solid #999999;
 	padding: 20px;
 	margin-bottom: 15px;
+
 }
 
 article footer {
